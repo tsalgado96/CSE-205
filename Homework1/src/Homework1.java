@@ -49,18 +49,6 @@ public class Homework1 {
         System.out.println();
 
 
-        /****************************
-         *          Ex. 6.5         *
-         ****************************/
-        System.out.print("Ex. 6.5) ");
-        H1_65 obj65 = new H1_65();
-        System.out.println(H1_65.B);
-        obj65.setX(50);
-        System.out.println(obj65.getX());
-        obj65.setY(23);
-        System.out.println(obj65.getY());
-
-
     } // end main(String[] args)
 } // end Main
 
