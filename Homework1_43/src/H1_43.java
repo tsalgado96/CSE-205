@@ -11,7 +11,15 @@ import java.io.File;
 import java.io.PrintWriter;
 
 public class H1_43 {
-    public static void main(String[] args) {
+    public static void main(String[] pArgs) {
+
+        new H1_43().run(); // Instantiate an object of this class and then call run() on the object
+
+    }
+
+    public H1_43() {}
+
+    private void run() {
         // Scanner object to collect the user input
         Scanner input = new Scanner(System.in);
 
